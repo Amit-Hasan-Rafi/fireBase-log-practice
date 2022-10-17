@@ -5,6 +5,7 @@ import GoogleSingUpform from './components/google-singUp-form/google-singUp-form
 import Google from './components/google/google';
 import Header_nav from './header-nav/header-nav';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import LogIn from './components/log-in/log-in';
 function App() {
     const router = createBrowserRouter([
       {
@@ -22,6 +23,10 @@ function App() {
           {
             path:'/GitHub-singUp',
             element:<GitHub></GitHub>
+          },
+          {
+            path:'/log-in',
+            element:<LogIn></LogIn>
           }
         ]
       }

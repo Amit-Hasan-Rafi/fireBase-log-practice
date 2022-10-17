@@ -1,0 +1,13 @@
+.links{
+    border: 2px solid red;
+    padding: 10px 20px;
+    margin-left: 10px;
+    text-decoration: none;
+}
+.links:hover{
+    background-color: antiquewhite;
+}
+.top{
+    margin: 40px 0px;
+    margin-left: 35%;
+}
